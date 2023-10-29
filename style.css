@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(48, 48, 48);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #FAFAFA;
+    font-size: 3rem;
+}
+
+
+
+div{
+    box-sizing: border-box;
+}
+
+#gameField{
+    width: 80vw;
+    height: 80vw;
+    max-width: 80vh;
+    max-height: 80vh;
+    border: 1px solid black;
+    display: grid;
+}
+
+.tile{
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.tile>img{
+    position: absolute;
+}
